@@ -23,12 +23,12 @@ a{
 }
 
  
- a, .detail-contain img, p, h2,h3,h4,h5{
+ a, .detail-contain img, p, h2,h3,h4,h5,h1,.carters{
   opacity: 0;
   animation: slideFromLeft 1s ease-in-out forwards;
   -webkit-animation: slideFromLeft 1s ease-in-out forwards;
 }
-nav, header ,.scrolled{ opacity: 0; animation: slideFromCenter 0.55s ease-in-out forwards; -webkit-animation: slideFromCenter 0.55s ease-in-out forwards;
+nav, header ,.scrolled,.search-container-home{ opacity: 0; animation: slideFromCenter 0.55s ease-in-out forwards; -webkit-animation: slideFromCenter 0.55s ease-in-out forwards;
 }
   
 

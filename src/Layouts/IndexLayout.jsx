@@ -6,6 +6,8 @@ import Footer from '../Components/Footer/Footer'
 import Hero from '../Components/Hero/Hero'
 import CardsHome from '../Components/CardsHome/CardsHome'
 import PropiedadesHome from '../Components/PropiedadesHome/PropiedadesHome'
+import ListadoCard from '../Components/ListadoCard/ListadoCard'
+import TilteSection from '../Components/TilteSection/TilteSection'
 export default function IndexLayout() {
     return (
         <div>
@@ -14,7 +16,10 @@ export default function IndexLayout() {
 
             <Hero />
             <CardsHome />
+            <TilteSection title="Más propiedades similares a las que viste" more="Ver más" link="propiedades" />
             <PropiedadesHome />
+            <TilteSection title="Listados de propiedades que te pueden interesar" more="Ver más" link="propiedades" />
+            <ListadoCard />
             <Footer />
             <ButonScroll />
 

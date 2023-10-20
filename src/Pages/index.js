@@ -2,7 +2,7 @@ import IndexLayout from "../Layouts/IndexLayout";
 import MainLayout from "../Layouts/MainLayout";
 import { createBrowserRouter } from "react-router-dom";
 import PageDetail from '../Pages/PageDetail/PageDetail'
-
+import PagePropiedades from "./PagePropiedades/PagePropiedades";
 export const router = createBrowserRouter([
     {
         path: "/",
@@ -17,7 +17,10 @@ export const router = createBrowserRouter([
                 path: "/inmobiliario/:id/:inmobiliario",
                 element: <PageDetail />,
             },
-
+            {
+                path: "/propiedades",
+                element: <PagePropiedades />,
+            },
 
         ],
     },

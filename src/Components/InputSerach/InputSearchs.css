@@ -38,8 +38,9 @@
   
   .inputSearch{
     background-color: var(  --gris)!important;
+   
     border-radius: 20px;
-    border: none;
+    border: 0.3px solid #00000037;
     padding: 5px 20px;
     width: 25em;
     color: var(--text-color2);
@@ -106,7 +107,7 @@
         border-radius: 20px;
         border: none;
         width: 20rem;
-        color: var(--blanco)!important;
+        
       }
  }
  @media (max-width: 1100px){

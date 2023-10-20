@@ -37,7 +37,7 @@ export default function InputSearchs() {
                     <FontAwesomeIcon icon={faSearch} className="search-icon" />
                     <input
                         type="text"
-                        placeholder="Buscar..."
+                        placeholder="Buscar propiedad..."
                         value={searchTerm}
                         onChange={handleSearch}
                         className="input"

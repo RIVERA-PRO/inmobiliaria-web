@@ -8,7 +8,7 @@
   --text-color: #000;
   --text-color2: #5c5959;
   --bg-color: #111111;
-  --gris:#f2f2f2;
+  --gris:#fafafa;
   --color1:#0074E4;
   --color2:#eb3c5a;
   --blanco: #fff;
@@ -23,7 +23,7 @@ a{
 }
 
  
- a{
+ a, .detail-contain img, p, h2,h3,h4,h5{
   opacity: 0;
   animation: slideFromLeft 1s ease-in-out forwards;
   -webkit-animation: slideFromLeft 1s ease-in-out forwards;

@@ -5,7 +5,7 @@ import ButonScroll from '../Components/ButonScroll/ButonScroll'
 import Footer from '../Components/Footer/Footer'
 import Hero from '../Components/Hero/Hero'
 import CardsHome from '../Components/CardsHome/CardsHome'
-
+import PropiedadesHome from '../Components/PropiedadesHome/PropiedadesHome'
 export default function IndexLayout() {
     return (
         <div>
@@ -14,6 +14,7 @@ export default function IndexLayout() {
 
             <Hero />
             <CardsHome />
+            <PropiedadesHome />
             <Footer />
             <ButonScroll />
 

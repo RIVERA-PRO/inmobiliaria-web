@@ -2,7 +2,8 @@ header {
     width: 100%;
     z-index: 10;
     transition: all 0.2s linear;
-    /* position: fixed; */
+    position: fixed;
+   
 }
 nav{
     display: flex;
@@ -192,7 +193,12 @@ nav{
  }
 
 @media (max-width: 1110px) {
-
+    header {
+        width: 100%;
+        z-index: 10;
+        transition: all 0.2s linear;
+        position: fixed;
+    }
     .btn-sesion{
         display: none;
     }
@@ -268,6 +274,7 @@ nav{
 
 
 @media (max-width: 900px) {
+  
     .enlaces2 a{
        display: none;
      }

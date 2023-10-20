@@ -2,7 +2,8 @@
     background-image: url(../../images/home.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 65vh;
+    background-attachment: fixed;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,7 +12,7 @@
     align-content: center;
     place-content: center;
     gap: 2rem;
-    margin: 20px 3% 10px;
+    margin: 0px 3% 10px;
     border-radius: 10px;
    
 }

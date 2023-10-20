@@ -25,6 +25,13 @@ nav{
     font-weight: 600;
     color: var(--blanco);
 }
+.btn-sesion2{
+    background-color: var(--color1);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: var(--blanco)!important;
+}
 .btn-sesion:hover{
     background-color: var(--blanco);
   border: 1px solid var(--color1);

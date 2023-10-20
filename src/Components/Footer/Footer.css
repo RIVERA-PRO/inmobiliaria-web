@@ -126,6 +126,6 @@
     }
     .contact-footer{
         flex-direction: column;
-       
+       gap: 2rem;
     }
 }

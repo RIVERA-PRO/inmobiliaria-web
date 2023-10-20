@@ -53,8 +53,9 @@ export default function Navbar() {
                         <Anchor to={`/propiedades`} >Propiedades</Anchor>
                         <Anchor to={`/Propiedades`} >Alquileres</Anchor>
                         <Anchor to={`/propiedades`} >Cabañas</Anchor>
-                    </div>
 
+                    </div>
+                    <Anchor to={`/login`} className='btn-sesion2'>Inicia Sesion</Anchor>
 
                 </div>
                 <div className='input-enlaces'>

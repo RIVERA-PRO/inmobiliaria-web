@@ -8,6 +8,8 @@ import 'react-responsive-modal/styles.css'; // Importa los estilos de react-resp
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart, faShare, faMapMarker } from '@fortawesome/free-solid-svg-icons';
 import Consulta from '../Consulta/Consulta'
+import Comentarios from "../Comentarios/Comentarios";
+import TilteSection from '../TilteSection/TilteSection'
 export default function Detail() {
     const { id } = useParams();
     const [inmo, setInmo] = useState(null);
@@ -20,8 +22,7 @@ export default function Detail() {
     }, [id, inmobiliario]);
 
     useEffect(() => {
-        // Solo se ejecuta una vez al cargar el componente
-        // Aquí puedes cargar tus datos iniciales si es necesario
+        window.scrollTo(0, 0);
     }, []);
 
     if (!inmo) {
@@ -37,6 +38,8 @@ export default function Detail() {
         // Lógica para manejar el clic en el icono de compartir
         console.log('Icono de compartir clicado');
     }
+
+
     return (
         <div className="detail-contain">
 
@@ -107,6 +110,9 @@ export default function Detail() {
                         <div className="iframe" dangerouslySetInnerHTML={{ __html: inmo.mapa }} />
 
                         <p>{inmo.descripcion}</p>
+                        <hr />
+                        <h3 className="titlecoment">Deja un Comentario</h3>
+                        <Comentarios />
                     </div>
                     <Consulta />
                 </div>

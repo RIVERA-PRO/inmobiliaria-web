@@ -40,8 +40,8 @@
     width: 1.6rem;
     height: 1.6rem;
 
-    background-color: rgba(0, 162, 255, 0.227);
-    color: rgba(0, 115, 255, 0.863);
+    background-color:var(--color2);
+    color: var(--color1);
 }
 
 

@@ -12,8 +12,8 @@ export default function Propiedades() {
     SwiperCore.use([Navigation, Pagination, Autoplay]);
     const [searchTerm, setSearchTerm] = useState('');
     const [selectedLocations, setSelectedLocations] = useState([]);
-    const [propertiesToShow, setPropertiesToShow] = useState(6); // Muestra 4 propiedades iniciales
-    const propertiesPerLoad = 6; // Cantidad de propiedades a cargar en cada clic
+    const [propertiesToShow, setPropertiesToShow] = useState(9); // Muestra 4 propiedades iniciales
+    const propertiesPerLoad = 9; // Cantidad de propiedades a cargar en cada clic
 
     const ubicacionesUnicas = [...new Set(inmobiliario.map(item => item.ubicacion))];
 
@@ -26,7 +26,7 @@ export default function Propiedades() {
     };
 
     const [priceRange, setPriceRange] = useState({ // Inicializa priceRange
-        min: 100,
+        min: 1000,
         max: 10000// Establece el rango máximo según tus necesidades
     });
 
@@ -49,7 +49,9 @@ export default function Propiedades() {
     });
     const noResults = filteredProperties.length === 0;
 
-
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
     return (
         <div className='propiedadesContain'>
 
@@ -71,7 +73,7 @@ export default function Propiedades() {
                         <h3>Filtrar por precio:</h3>
                         <input
                             type="range"
-                            min="100"
+                            min="1000"
                             max="10000" // Ajusta el rango máximo según tus necesidades
                             value={priceRange.min}
                             onChange={(e) =>
@@ -80,7 +82,7 @@ export default function Propiedades() {
                         />
                         <input
                             type="range"
-                            min="100"
+                            min="1000"
                             max="10000" // Ajusta el rango máximo según tus necesidades
                             value={priceRange.max}
                             onChange={(e) =>

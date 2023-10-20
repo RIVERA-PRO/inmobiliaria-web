@@ -51,8 +51,8 @@ export default function Navbar() {
                     <div className='enlaces'>
                         <Anchor to={`/`} >Inico</Anchor>
                         <Anchor to={`/propiedades`} >Propiedades</Anchor>
-                        <Anchor to={`/propiedades`} >Propiedades</Anchor>
-                        <Anchor to={`/propiedades`} >Propiedades</Anchor>
+                        <Anchor to={`/Propiedades`} >Alquileres</Anchor>
+                        <Anchor to={`/propiedades`} >Cabañas</Anchor>
                     </div>
 
 
@@ -61,8 +61,8 @@ export default function Navbar() {
                     <div className='enlaces2'>
                         <Anchor to={`/`} >Inico</Anchor>
                         <Anchor to={`/propiedades`} >Propiedades</Anchor>
-                        <Anchor to={`/Propiedades`} >Propiedades</Anchor>
-                        <Anchor to={`/propiedades`} >Propiedades</Anchor>
+                        <Anchor to={`/propiedades`} >Alquileres</Anchor>
+                        <Anchor to={`/propiedades`} >Cabañas</Anchor>
                     </div>
                     <div>
                         <InputSearch />

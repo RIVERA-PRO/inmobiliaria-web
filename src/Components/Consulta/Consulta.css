@@ -40,22 +40,34 @@
 }
 
 
-.enviar {
+.submit {
     background-color: var(--color1);
     border-radius: 30rem;
  }
  
-.enviar input{
-   background-color: var(--color1);
+.submit input{
+    background-color: var(--color1);
     padding: 15px;
-    border-radius: 30rem;
- border: none;
- color: var(--blanco)!important;;
- font-size: 16px;
- font-weight: bold;
- cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    color: var(--blanco)!important;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
-
+.wpp-btn{
+    background-color: #34be34;
+    border-radius: 10px;
+    padding: 15px;
+    border: none;
+    color: var(--blanco)!important;
+    font-size: 16px;
+    font-weight: bold;
+}
 .error-message{
  text-align: center;
  color: red;

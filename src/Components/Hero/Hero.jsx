@@ -1,7 +1,12 @@
-import React from 'react'
+import { React, useEffect } from 'react'
 import './Hero.css'
 import InputSearchHome from '../InputSearchHome/InputSearchHome'
 export default function Hero() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
+
     return (
         <div className='heroContain'>
 

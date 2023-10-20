@@ -48,15 +48,19 @@ export default function Consulta() {
                 <textarea placeholder="Consulta" name="question" id="question" style={{ color: 'white' }} required></textarea>
                 {successMessage && <p className="success-message">{successMessage}</p>}
                 {errorMessage && <p className="error-message">{errorMessage}</p>}
-                <div className="enviar">
+                <div className="submit">
                     {loading ? (
                         <div className='enviar'>
                             <Spiral />
                         </div>
                     ) : (
-                        <input type="submit" value="Enviar"></input>
+                        <input type="submit" value="Contactar"></input>
                     )}
                 </div>
+
+                <button className='wpp-btn'>
+                    Contactar por WhatsApp
+                </button>
             </form>
 
 

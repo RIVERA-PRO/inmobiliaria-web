@@ -18,7 +18,7 @@
     gap: 1rem;
 }
 .imgGrid img{
-    width: 48vh;
+    width: 40vh;
     height: 28.7vh;
     object-fit: cover;
     border-radius: 10px;
@@ -98,7 +98,10 @@ hr{
     margin-top: 1rem;
   
 }
-
+.titlecoment{
+    color: var(--text-color2);
+  
+}
 @media (max-width: 1224px){
     .imgGrid img{
         width: 20vh;

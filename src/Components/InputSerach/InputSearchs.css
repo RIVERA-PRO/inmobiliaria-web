@@ -119,25 +119,19 @@
        
        
      
-        width: 20rem;
+        width: 16vh;
         
       }
  }
- @media (max-width: 1100px){
+ @media (max-width: 1200px){
     .inputSearch{
-      width: 20rem!important;
+      width: 30vh!important;
       
       }
      
  }
 
- @media (max-width: 630px){
-  .inputSearch{
-      width: 25rem!important;
-   
-    }
-   
-}
+
 @media (max-width: 510px){
   .inputSearch{
       width: 100%!important;

@@ -2,21 +2,33 @@ header {
     width: 100%;
     z-index: 10;
     transition: all 0.2s linear;
-    position: fixed;
+    /* position: fixed; */
 }
 nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
     align-content: center;
-    padding: 0px 3%;
+    padding: 0px 2%;
     height: 10vh;
     box-shadow: 0px 4px 15px rgb(0 0 0 / 8%);
     background-color: var(--blanco);
     transition: all 0.2s linear;
+    
 }
 
-
+.btn-sesion{
+    background-color: var(--color1);
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 600;
+    color: var(--blanco);
+}
+.btn-sesion:hover{
+    background-color: var(--blanco);
+  border: 1px solid var(--color1);
+    color: var(--text-color2);
+}
 .modal-nav{
     z-index: 30000;
     position: fixed;
@@ -77,13 +89,15 @@ nav{
 .logo {
     display: flex;
     align-items: center;
+    gap: 10px;
+   
    
 }
 .logo h1{
     color: var(--color1);
 }
 .logo img{
-    width: 40px;
+    width: 30px;
     
 }
 .logo-nav{
@@ -179,7 +193,9 @@ nav{
 
 @media (max-width: 1110px) {
 
-    
+    .btn-sesion{
+        display: none;
+    }
  
     .modal_content{
         width: 100%;

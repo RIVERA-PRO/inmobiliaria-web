@@ -2,7 +2,7 @@
     background-image: url(../../images/home.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70vh;
+    height: 65vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -11,10 +11,9 @@
     align-content: center;
     place-content: center;
     gap: 2rem;
-    padding: 10px 10%;
- 
-    
-  
+    margin: 20px 3% 10px;
+    border-radius: 10px;
+   
 }
 
 .heroContain h1{
@@ -42,8 +41,9 @@
 
 @media (max-width: 800px){
     .heroContain {
-        height: 100vh;
-        padding: 10px 5%;
+      
+        margin: 20px 2%;
+        padding: 20px 3%;
         gap: 3rem;
     }
 

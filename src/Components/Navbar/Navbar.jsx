@@ -74,7 +74,8 @@ export default function Navbar() {
                     <span></span>
                     <span></span>
                 </div>
-                <InfoUser />
+                {/* <InfoUser /> */}
+                <Anchor to={`/login`} className='btn-sesion'>Inicia Sesion</Anchor>
 
 
 

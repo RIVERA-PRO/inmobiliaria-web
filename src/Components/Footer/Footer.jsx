@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import jrdev from '../../images/logor.png'
+
 export default function Footer() {
 
     return (
@@ -28,8 +28,13 @@ export default function Footer() {
                         <p>Regístrese para recibir la información más reciente</p>
                     </div>
                     <form action="">
-                        <input type="text" placeholder='Ingrese su email' />
-                        <input type="submit" className='btn-2' />
+                        <fieldset className='formFoter'>
+                            <input type="text" placeholder='Ingrese su email' />
+                            <button type="submit" >
+                                Enviar
+                            </button>
+                        </fieldset>
+
                     </form>
                 </div>
             </div>
@@ -45,10 +50,6 @@ export default function Footer() {
                 </div>
             </div>
 
-            <div className='dev'>
-                <p>Desarrollado por</p>
-                <img src={jrdev} alt="Juan Rivera Developer" />
-            </div>
 
 
         </div>

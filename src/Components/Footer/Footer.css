@@ -30,7 +30,7 @@
     justify-content: space-between;
 }
 .form-fondo input{
-    background-color: var(--blanco);
+   
     padding: 15px 30px;
     border: none;
    
@@ -46,12 +46,7 @@
 .form-text h6{
     font-size: 30px;
 }
-.btn-2{
-   background-image: linear-gradient(to right,  var(--color2) 0%,  var(--color1) 100%), linear-gradient(to right,  var(--color2) 0%,  var(--color1) 100%);
-color: var(--blanco);
-  border: none;
-  padding: 10px 20px;
-}
+
 .contact-footer{
     width: 100%;
     display: flex;
@@ -96,6 +91,25 @@ color: var(--blanco);
 }
 .dev img {
     width: 60px;
+}
+
+.formFoter{
+    background-color: var(--blanco);
+    display: flex;
+    border-radius: 10px;
+    border: none;
+    overflow: hidden;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.formFoter button{
+    color: var(--blanco);
+    background-color: var(--color1);
+    width: 100%;
+    border: none;
+    padding: 10px 20px;
 }
 @media (max-width: 760px) {
     .fondo-footer{

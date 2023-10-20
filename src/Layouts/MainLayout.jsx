@@ -3,6 +3,7 @@ import Header from '../Pages/Header/Header'
 import { Outlet } from "react-router-dom";
 import ButonScroll from '../Components/ButonScroll/ButonScroll'
 import Footer from '../Components/Footer/Footer'
+import Develloper from '../Components/Developer/Developer'
 export default function MainLayout() {
     return (
         <div>
@@ -10,6 +11,7 @@ export default function MainLayout() {
             <Outlet />
 
             <Footer />
+            <Develloper />
             <ButonScroll />
         </div>
     )

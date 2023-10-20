@@ -14,11 +14,15 @@
 
 @media (max-width: 1020px) {
     .titleSection{
-      flex-direction: column;
-     
+    
+     padding: 10px 5%;
     }
     .titleSection h2{
        
         font-size: 20px;
+       
+    }
+    .titleSection a{
+       display: none;
     }
 }

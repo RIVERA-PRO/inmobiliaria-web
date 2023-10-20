@@ -8,6 +8,7 @@ import CardsHome from '../Components/CardsHome/CardsHome'
 import PropiedadesHome from '../Components/PropiedadesHome/PropiedadesHome'
 import ListadoCard from '../Components/ListadoCard/ListadoCard'
 import TilteSection from '../Components/TilteSection/TilteSection'
+import Develloper from '../Components/Developer/Developer'
 export default function IndexLayout() {
     return (
         <div>
@@ -21,6 +22,7 @@ export default function IndexLayout() {
             <TilteSection title="Listados de propiedades que te pueden interesar" more="Ver más" link="propiedades" />
             <ListadoCard />
             <Footer />
+            <Develloper />
             <ButonScroll />
 
         </div>
